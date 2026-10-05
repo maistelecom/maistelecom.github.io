@@ -27,19 +27,6 @@ We publish hours, offerings and contact paths clearly so customers know what to 
 
 At Maistelecom, great 3d print shop shouldn't require guesswork. We publish hours, prices, and policies so your visit starts with confidence.
 
-- Transparent menus and service lists
-- Staff who explain options without pressure
-- Quality that holds up visit after visit
-- Follow-through when something needs fixing
-
----
-
-## The long view
-
-Become the 3d print shop benchmark in Indianapolis — known for craft, accessibility, and a brand identity that feels unmistakably Maistelecom.
-
----
-
 # Our Services
 
 ## Core Collection
@@ -92,72 +79,16 @@ Become the 3d print shop benchmark in Indianapolis — known for craft, accessib
 
 ---
 
-# Brand Style
-
-### Seasonal Rotation
-
-Fresh highlights without resetting the whole catalog.
-
-### Workday Ready
-
-Practical choices that still look intentional.
-
-### Modern Everyday
-
-Clean, comfortable options for daily life.
-
-### Signature Edit
-
-Distinctive pieces that define the brand look.
+- Transparent menus and service lists
+- Staff who explain options without pressure
+- Quality that holds up visit after visit
+- Follow-through when something needs fixing
 
 ---
 
-# Why Choose Maistelecom?
+## The long view
 
-### Built to return
-
-Consistency matters more than one flashy launch.
-
-### Local roots
-
-Based in Indianapolis with a team you can meet in person.
-
-### Craft first
-
-We invest in the work behind the counter, not filler marketing.
-
-### Built to return
-
-Consistency matters more than one flashy launch.
----
-
-# What the website includes
-
-- Responsive layout tuned for mobile
-- Clear **Services** with prices
-- Visit page with map and hours
-- Contact form — stay on site, no redirects
-- Policies and support desk email
-
----
-
-# Brand Identity
-
-**Industry:** 3D Print Shop (Technology)  
-**Location:** Indianapolis, IN  
-**Audience:** Customers looking for reliable, accessible 3d print shop.
-
----
-
-# Repository
-
-Public profile + website assets for **Maistelecom**.
-
-```text
-maistelecom/
-├── README.md
-└── maistelecom.github.io/
-```
+Become the 3d print shop benchmark in Indianapolis — known for craft, accessibility, and a brand identity that feels unmistakably Maistelecom.
 
 ---
 

@@ -1,10 +1,10 @@
 
 :root {
-  --ink:#121417; --muted:#5c6570; --paper:#f6f1ea;
-  --accent:#8a6a4f; --deep:#1c1410; --line:rgba(18,20,23,.10);
-  --display:"Syne",Georgia,"Times New Roman",serif;
-  --body:"Work Sans","Segoe UI",sans-serif; --shell:1120px;
-  --radius:4px;
+  --ink:#121417; --muted:#5c6570; --paper:#0b1220;
+  --accent:#38bdf8; --deep:#020617; --line:rgba(18,20,23,.10);
+  --display:"Bebas Neue",Georgia,"Times New Roman",serif;
+  --body:"Inter","Segoe UI",sans-serif; --shell:1120px;
+  --radius:10px;
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth}
 body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;padding-bottom:72px;-webkit-font-smoothing:antialiased}
@@ -29,7 +29,7 @@ nav a.on,nav a:hover{color:var(--accent)}
 .cta,.btn.solid{background:var(--accent);color:#fff}
 .btn.line{border:1px solid rgba(255,255,255,.55);color:#fff;background:transparent}
 .btn.quiet{border:1px solid var(--line);background:#fff;color:var(--ink)}
-.hero{position:relative;min-height:88vh;display:grid;align-items:end;color:#fff;overflow:hidden}
+.hero{position:relative;min-height:90vh;display:grid;align-items:end;color:#fff;overflow:hidden}
 .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center center;background-repeat:no-repeat}
 .hero-shade{position:absolute;inset:0;background:linear-gradient(115deg,rgba(10,12,16,.72),rgba(10,12,16,.18))}
 .hero-photo img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center;display:block;max-height:min(78vh,900px)}
@@ -162,12 +162,22 @@ picture,figure{margin:0}
   .promo{flex-direction:column;align-items:flex-start}
 }
 
-.brand,.hero h1,.page-hero h1,h2{letter-spacing:-.02em}
-.item,.card,.person,blockquote{border-radius:4px}
-.cta,.btn{border-radius:4px;letter-spacing:.06em;text-transform:uppercase;font-size:.8rem}
+body{color:#e5eef7}
+.top{background:rgba(11,18,32,.92);border-color:rgba(255,255,255,.08)}
+.logo,nav a.on,.textlink,.price,.eyebrow,.map-note a{color:#38bdf8}
+nav,.foot a,.foot-meta,.lead,.item p,blockquote footer{color:#94a3b8}
+.item,.card,.person,blockquote,.hours-card,.promo,.contact-form input,.contact-form textarea,.news-form input{
+  background:#111827;border-color:rgba(255,255,255,.1);color:#e5eef7
+}
+.block.tint{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.08)}
+.strip{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.08)}
+.btn.quiet{background:#111827;color:#e5eef7;border-color:rgba(255,255,255,.15)}
+.foot{background:#020617;border-color:rgba(255,255,255,.08)}
+.mobile-cta{background:#020617;border-color:rgba(255,255,255,.1)}
+.mobile-cta a{color:#e5eef7}
 
 
-.hero.split-hero .hero-split{grid-template-columns:.78fr 1.22fr}.hero.split-hero .hero-copy{padding-right:8vw}.menu-grid{grid-template-columns:1fr 1fr}.item:nth-child(even){transform:translateY(2rem)}.block:nth-of-type(even) .shell{max-width:1100px}
+.hero{min-height:96vh}.hero h1{font-size:clamp(3rem,8vw,6.7rem);max-width:12ch}.hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.18))}.block{padding:6rem 0}.mosaic{grid-template-columns:2fr 1fr 1fr}.mosaic img:first-child{grid-row:span 2;min-height:520px}.value-grid{gap:2rem}
 
 .prose-block .lead.wide{max-width:62ch}
 .journal-card,.journal-entry{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem}
